@@ -1,0 +1,7 @@
+Author - Tim Hendrickson
+
+Use main.m and viterbi.m to perform the viterbi algorithm and then report the CpG islands and their associated gene and motif hits if any.
+
+To run code only a few changes have to be made to main.m. The first three variables FASTAfilename, GenesFilename, MotifsFilename may have to be changed if a different file, or chromosome are analyzed. Later on in main.m, at around line 26-27 there are two variables p and q they may have to be manipulated. 
+
+In order to run, ensure that the files to be analyzed and reference gene and/or motif location files are in the same folder as main.m and viterbi.m. Once this is finished run the main.m script in order to complete viterbi calculations and yield output. The results will be saved to a file named 'output_cpgIslands.txt
